@@ -1,21 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demariaproyect</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV SARA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>MARIA</h1>
-    <h1>ISABEL</h1>
-    <h1>SANTI</h1>
-    <h1>JIME</h1>
-    <h1>CARLOS</h1>
+  <div class="background-shape shape-1"></div>
+  <div class="background-shape shape-2"></div>
 
-    <div>CASA</div>
-    
-    <div>COCHE</div>
-    
-    <div>COCO</div>
+  <main class="cv-container">
+    <aside class="sidebar">
+      <div class="profile-card">
+        <div class="photo-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+            alt="Foto de perfil"
+            class="profile-photo"
+          />
+        </div>
+
+        <h1 class="name">Juan David Pérez</h1>
+        <p class="title">Desarrollador Full Stack</p>
+
+        <button id="toggleTheme" class="theme-btn">Cambiar tema</button>
+      </div>
+
+      <section class="sidebar-section">
+        <h2>Contacto</h2>
+        <ul class="contact-list">
+          <li><span>📧</span> juandavid@email.com</li>
+          <li><span>📱</span> +57 300 123 4567</li>
+          <li><span>📍</span> Medellín, Colombia</li>
+          <li><span>🌐</span> www.portafolio.com</li>
+          <li><span>💼</span> linkedin.com/in/juandavid</li>
+        </ul>
+      </section>
+
+      <section class="sidebar-section">
+        <h2>Habilidades</h2>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Bootstrap</span>
+          <span>Git</span>
+        </div>
+      </section>
+
+      <section class="sidebar-section">
+        <h2>Idiomas</h2>
+        <div class="language-item">
+          <p>Español</p>
+          <div class="bar"><span style="width: 100%"></span></div>
+        </div>
+        <div class="language-item">
+          <p>Inglés</p>
+          <div class="bar"><span style="width: 75%"></span></div>
+        </div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <header class="hero">
+        <p class="hero-tag">Perfil Profesional</p>
+        <h2>Especialista en crear soluciones digitales modernas, funcionales y orientadas a resultados.</h2>
+        <p class="hero-description">
+          Profesional con experiencia en desarrollo web, diseño de interfaces y construcción de sistemas escalables.
+          Capacidad para liderar proyectos, trabajar en equipo y entregar productos con alto nivel estético y técnico.
+        </p>
+      </header>
+
+      <section class="content-section reveal">
+        <div class="section-title">
+          <span></span>
+          <h3>Experiencia Laboral</h3>
+        </div>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2024 - Actualidad</div>
+          <div class="timeline-content">
+            <h4>Desarrollador Full Stack</h4>
+            <p class="company">Tech Solutions S.A.S</p>
+            <p>
+              Desarrollo de plataformas web a la medida, integración de APIs, optimización de bases de datos y diseño de interfaces responsive para mejorar la experiencia del usuario.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2022 - 2024</div>
+          <div class="timeline-content">
+            <h4>Frontend Developer</h4>
+            <p class="company">Creative Digital Studio</p>
+            <p>
+              Maquetación de sitios web corporativos, implementación de componentes interactivos en JavaScript y mejora del rendimiento visual en dispositivos móviles.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-section reveal">
+        <div class="section-title">
+          <span></span>
+          <h3>Educación</h3>
+        </div>
+
+        <article class="card-item">
+          <h4>Ingeniería de Sistemas</h4>
+          <p>Universidad Ejemplo • 2018 - 2023</p>
+        </article>
+
+        <article class="card-item">
+          <h4>Diplomado en Desarrollo Web</h4>
+          <p>Instituto Tecnológico • 2023</p>
+        </article>
+      </section>
+
+      <section class="content-section reveal">
+        <div class="section-title">
+          <span></span>
+          <h3>Proyectos Destacados</h3>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <h4>Sistema de Gestión Empresarial</h4>
+            <p>Aplicación web para administrar clientes, reportes, usuarios y procesos internos.</p>
+          </article>
+
+          <article class="project-card">
+            <h4>Landing Comercial</h4>
+            <p>Sitio diseñado para captar clientes potenciales con enfoque en marketing digital y conversiones.</p>
+          </article>
+
+          <article class="project-card">
+            <h4>Dashboard Administrativo</h4>
+            <p>Panel interactivo con métricas, gráficos y visualización clara para toma de decisiones.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section reveal">
+        <div class="section-title">
+          <span></span>
+          <h3>Referencias</h3>
+        </div>
+
+        <div class="references-grid">
+          <div class="card-item">
+            <h4>María Gómez</h4>
+            <p>Directora de Proyectos</p>
+            <p>+57 301 000 0001</p>
+          </div>
+
+          <div class="card-item">
+            <h4>Carlos Ramírez</h4>
+            <p>Gerente Comercial</p>
+            <p>+57 301 000 0002</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
